@@ -15,7 +15,7 @@ campagna_cliente = st.text_area("Testo della Campagna da analizzare:", height=15
 
 # Bottone per avviare la magia
 if st.button("🚀 Genera Report Esecutivo"):
-    if non campagna_cliente:
+    if not campagna_cliente:
         st.warning("Per favore, inserisci il testo della campagna prima di avviare.")
     else:
         with st.spinner("Inizializzazione Sciame Predittivo e Motori di Compliance in corso... (richiede circa 1 minuto)"):
