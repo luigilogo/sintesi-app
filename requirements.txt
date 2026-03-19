@@ -1,0 +1,4 @@
+crewai[litellm]
+markdown
+xhtml2pdf
+streamlit
